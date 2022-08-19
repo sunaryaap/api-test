@@ -81,6 +81,6 @@ Nest is [MIT licensed](LICENSE).
 - Adjust in file .ENV
 - run command "npm i"
 - run command "npm run start"
-- enjoy preview with Postman file: Majamojo-Test-Postman.postman_collection.json
+- enjoy preview with Postman file: MJ-Test-Postman.postman_collection.json
 
 ```
