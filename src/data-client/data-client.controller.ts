@@ -16,7 +16,7 @@ export class DataClientController {
     @Request() req: any,
   ) {
 
-    const ip = (!process.env.IP_TEST) ? req.socket.remoteAddress : "180.252.165.27";
+    const ip = (process.env.IS_IP_TEST === 'true') ? process.env.IP_TEST : req.socket.remoteAddress;
     const geo = geoip.lookup(ip);
     body.geolocation = JSON.stringify(geo);
     body.remote_address = ip;
