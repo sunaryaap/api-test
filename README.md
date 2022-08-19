@@ -78,6 +78,15 @@ Nest is [MIT licensed](LICENSE).
 - NodeJs > v14.19.3
 - MYSQL
 - Adjust in file .ENV (MYSQL CONNECTION, IS_IP_TEST & set IP_TEST for demo in local)
-- run command "npm i"
-- run command "npm run start"
+- Run Command:
+```bash
+# install package
+$ npm i
+
+# run project
+$ npm run start
+
+# run project debug
+$ npm run start:dev
+```
 - enjoy preview with Postman file: MJ-Test-Postman.postman_collection.json
