@@ -74,13 +74,10 @@ Nest is [MIT licensed](LICENSE).
 
 ## Sunarya - Test - Project
 ## How to Run This Project 
-```bash
 
 - NodeJs > v14.19.3
 - MYSQL
-- Adjust in file .ENV
+- Adjust in file .ENV (MYSQL CONNECTION, IS_IP_TEST & set IP_TEST for demo in local)
 - run command "npm i"
 - run command "npm run start"
 - enjoy preview with Postman file: MJ-Test-Postman.postman_collection.json
-
-```
